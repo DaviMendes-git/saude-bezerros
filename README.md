@@ -1,16 +1,56 @@
-# React + Vite
+Saúde Bezerros — Agenda Digital de Saúde
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sobre o projeto
 
-Currently, two official plugins are available:
+O Saúde Bezerros é um protótipo acadêmico de uma plataforma digital para facilitar o acesso dos cidadãos aos serviços de saúde municipal de Bezerros, Pernambuco.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+O projeto foi desenvolvido como parte de uma atividade acadêmica, com foco na construção de uma interface utilizando React.
 
-## React Compiler
+Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Página inicial: apresentação do sistema e indicadores demonstrativos.
+* Unidades de saúde: visualização de unidades fictícias para demonstração.
+* Agendamento de consultas: formulário para solicitar consultas.
+* Meus atendimentos: visualização das consultas cadastradas durante a sessão.
+* Exames: consulta de informações e status demonstrativos.
+* Profissionais: visualização de profissionais fictícios para demonstração.
+* Relatórios: exibição de indicadores do sistema.
+* Ajuda: atalhos para facilitar a navegação entre as páginas.
 
-## Expanding the ESLint configuration
+Tecnologias utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React
+* JavaScript
+* CSS
+* Vite
+* Git e GitHub
+
+Como executar o projeto
+
+É necessário ter o Node.js instalado.
+
+1. Clone o repositório:
+
+git clone https://github.com/DaviMendes-git/saude-bezerros.git
+
+2. Entre na pasta do projeto:
+
+cd saude-bezerros
+
+3. Instale as dependências:
+
+npm install
+
+4. Inicie a aplicação:
+
+npm run dev
+
+5. Abra no navegador o endereço local informado pelo Vite, geralmente http://localhost:5173.
+
+Observações
+
+Este projeto é um protótipo acadêmico. Os dados apresentados são demonstrativos, os atendimentos ficam armazenados apenas na memória durante a execução e não há integração real com sistemas municipais de saúde, e-SUS PEC, SMS ou WhatsApp.
+
+Repositório
+
+https://github.com/DaviMendes-git/saude-bezerros
